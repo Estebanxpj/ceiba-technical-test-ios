@@ -11,7 +11,7 @@ class UsersPresenter: ViewToPresenterUsersProtocol {
     }
 
     func filterUsersList(filter: String) {
-        var users = filter ? view?.originUserList.filter({$0.name.lowercased().contains(filter.lowercased())}): view?.originUserList 
+        var users = filter ? view?.originUserList?.filter({$0.name.lowercased().contains(filter.lowercased())}): view?.originUserList
         if let listUsers = users, users.count > 0 {
             view?.pushUsers(users: users)
         } else {

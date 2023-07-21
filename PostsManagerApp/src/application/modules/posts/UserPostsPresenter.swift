@@ -18,9 +18,13 @@ class UserPostsPresenter: ViewToPresenterUserPostsProtocol {
 
 extension UserPostsPresenter: InteractorToPresenterUserPostsProtocol {
     
-    func fetchPosts(posts: [Post]){
-        view.pushPosts(posts: posts)
-
+    func fetchPosts(posts: [Post]){        
         view.stopSpiner()
+        if let listPosts = posts, posts.count > 0 {
+            view.pushPosts(posts: posts)
+        } else {
+            let message: String = "No entries found for the selected user"
+            view?.showErrorMessage()
+        }
     }
 }

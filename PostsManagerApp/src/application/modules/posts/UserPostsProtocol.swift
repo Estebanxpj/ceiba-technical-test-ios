@@ -14,9 +14,9 @@ protocol PresenterToViewUserPostsProtocol:class {
 
     func showInfoUser(user: user)
     func pushPosts(posts: [Post])
+    func showMessage(message: String)
     func startSpiner()
     func stopSpiner()
-    
 }
 
 protocol PresenterToRouterUserPostsProtocol:class {

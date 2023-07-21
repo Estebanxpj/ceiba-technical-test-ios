@@ -16,6 +16,7 @@ extension UserPostsInteractor: RemoteDataManagerToInteractorUserPostsProtocol {
         if let listPosts = !posts {
             presenter.fetchPosts(posts: posts)
             localDataManager.saveLocalUserPosts(users)
+        }
     }
 }
 

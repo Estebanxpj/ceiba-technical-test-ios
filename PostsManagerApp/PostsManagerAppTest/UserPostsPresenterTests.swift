@@ -1,9 +1,9 @@
 import XCTest
 @testable import PostsManagerApp
 
-class UserPostsPresenterTest: XCTestCase {
+class UserPostsPresenterTests: XCTestCase {
 
-    var sut: UsersPresenter!
+    var sut: UserPostsPresenter!
     var viewMock: ViewUserPostsMock!
     var interactorMock: InteractorUserPostsMock?
     var routerMock: RouterUserPostsMock?
@@ -19,23 +19,30 @@ class UserPostsPresenterTest: XCTestCase {
     }
 
     override func tearDownWithError() throws {
-        sutView = nil
+        viewMock = nil
         sut = nil
+        interactorMock = nil
+        routerMock= nil
     }
 
     func tests_viewDidLoad() throws {
-        mockInteractor?.noReturn = true
-        sut?.viewDidLoad(username: "")
-        XCTAssertTrue(mockView?.loading ?? false)
+        sut.selectedUser = nil
+        interactorMock.
+        sut?.viewDidLoad(sut.selectedUser)
+        XCTAssertTrue(viewMock?.isAlertShow ?? false)
+        XCTAssertTrue(viewMock?.isSpinerShow ?? false)
     }
 }
 
 class ViewUserPostsMock: PresenterToViewUserPostsProtocol {
+    var presenter: ViewToPresenterUserPostsProtocol?
+    
+    var isAlertShow: Bool = false
     var spiner: Bool = false
-    var presenter: ViewToPresenterUsersProtocol?
+    var listPosts: [Post]
 
-    func pushPosts(users: [User]) {
-        listUsers = users
+    func pushPosts(posts: [Post]) {
+        listPosts = posts
     }
 
     func startSpiner() {
@@ -45,9 +52,17 @@ class ViewUserPostsMock: PresenterToViewUserPostsProtocol {
     func stopSpiner() {
         spiner = false
     }
+
+    func showMessage(message: String) {
+        isAlertShow = true
+    }
 }
 
 class InteractorUserPostsMock: PresenterToInteractorUserPostsProtocol {
+    var presenter: InteractorToPresenterUserPostsProtocol?
+    var listPostsResponse: [Post] = []
+
     func loadUserPosts() {
+        presenter.fetchPosts(posts: listPostsResponse)
     }
 }

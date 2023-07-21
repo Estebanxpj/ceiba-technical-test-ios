@@ -41,9 +41,18 @@ extension UserPostsViewController: PresenterToViewUserPostsProtocol {
     }
 
     func showInfoUser(user: User) {
-        self.textName = user.name
-        self.textEmail = user.email
-        self.textPhone = user.phone
+        DispatchQueue.main.async {
+            self.textName = user.name
+            self.textEmail = user.email
+            self.textPhone = user.phone
+        }
+    }
+
+    func showMessage(message: String) {
+        let alertController: UIAlertController = UIAlertController(title: "Posts", message: message, preferredStyle: .alert)
+        let okAction: UIAlertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
     }
 }
 
