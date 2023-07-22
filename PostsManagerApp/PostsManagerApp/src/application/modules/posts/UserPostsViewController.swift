@@ -16,10 +16,13 @@ class UserPostsViewController: UIViewController {
     @IBOutlet weak var textPhone: UILabel!
         
     var presenter: ViewToPresenterUserPostsProtocol?
-    var listPosts: [Post] = []
+    var listPosts = [Post]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.postsTable.dataSource = self
+        
         presenter?.viewDidLoad()
     }
 }

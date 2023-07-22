@@ -7,26 +7,33 @@
 import Foundation
 import UIKit
 
-class UsersViewController: UIViewController {
+class UsersViewController: UIViewController, UISearchResultsUpdating {
     
+    let searchController = UISearchController()
     
-    @IBOutlet weak var filter: UISearchBar!
+    @IBOutlet weak var userFilter: UISearchBar!
+    @IBOutlet weak var userSpiner: UIActivityIndicatorView!
     @IBOutlet weak var usersTable: UITableView!
     
-    @IBOutlet weak var spiner: UIActivityIndicatorView!
-    
     var presenter: ViewToPresenterUsersProtocol?
-    var originUserList: [User] = []
     var listUsers = [User]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        title = "Buscar"
+        self.presenter?.viewDidLoad()
+        searchController.searchResultsUpdater = self
+        navigationItem.searchController = searchController
+        
         self.usersTable.delegate = self
         self.usersTable.dataSource = self
-        self.usersTable.register(UserCell.self, forCellReuseIdentifier: "UserCell")
-
-        self.presenter?.viewDidLoad()
+    }
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        guard let filter = searchController.searchBar.text else {
+            return
+        }
+        presenter?.filterUsersList(filter: filter)
     }
 }
 
@@ -40,15 +47,16 @@ extension UsersViewController: PresenterToViewUsersProtocol {
 
     func startSpiner() {
         DispatchQueue.main.async {
-            self.spiner.startAnimating()
+            //self.userSpiner.startAnimating()
         }
 
     }
 
     func stopSpiner() {
         DispatchQueue.main.async {
-            self.spiner.stopAnimating()
-            self.spiner.hidesWhenStopped = true
+            self.userSpiner.stopAnimating()
+            self.userSpiner.hidesWhenStopped = true
+            
         }
     }
 
@@ -60,18 +68,19 @@ extension UsersViewController: PresenterToViewUsersProtocol {
     }
 }
 
-
 extension UsersViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int 	{
         return self.listUsers.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell") as! UserCell
+        let user = self.listUsers[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! UserViewCell
         
-        cell.txtName?.text = self.listUsers[indexPath.row].name
-        cell.txtEmail?.text = self.listUsers[indexPath.row].email
-        cell.txtPhone?.text = self.listUsers[indexPath.row].phone
+        cell.lblName?.text = user.name
+        cell.lblEmail?.text = user.email
+        cell.lblPhone?.text = user.phone
+        cell.lblShowPost.text = "VER PUBLICACIONES"
         return cell
     }
 }
@@ -82,17 +91,3 @@ extension UsersViewController: UITableViewDelegate {
     }
 }
 
-extension UsersViewController: UISearchBarDelegate {
-    func searchBar(_searchBar: UISearchBar, textDidChange searchTest: String){
-        presenter?.filterUsersList(filter: searchTest)
-    }
-
-}
-
-class UserCell: UITableViewCell {
-    
-    @IBOutlet weak var btnPosts: UILabel!
-    @IBOutlet weak var txtEmail: UILabel!
-    @IBOutlet weak var txtPhone: UILabel!
-    @IBOutlet weak var txtName: UILabel!
-}

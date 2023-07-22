@@ -10,14 +10,15 @@
 		08EA16DC1B7643112E13F800 /* Pods_PostsManagerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558D79903F8761C58697A854 /* Pods_PostsManagerApp.framework */; };
 		9E208C652A6B42B8005910E0 /* LocalDataRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E208C642A6B42B8005910E0 /* LocalDataRepositoryProtocol.swift */; };
 		9E208C672A6B60C8005910E0 /* UsersRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E208C662A6B60C8005910E0 /* UsersRemoteDataManager.swift */; };
+		9E57B8132A6C8EE6002E9B56 /* UserPostsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B8122A6C8EE6002E9B56 /* UserPostsInteractorTests.swift */; };
+		9E57B8162A6C924D002E9B56 /* UserViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B8152A6C924D002E9B56 /* UserViewUITests.swift */; };
+		9E57B8182A6C92D2002E9B56 /* UserPostsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B8172A6C92D2002E9B56 /* UserPostsPresenterTests.swift */; };
+		9E57B81C2A6C976A002E9B56 /* UsersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B81B2A6C976A002E9B56 /* UsersInteractorTests.swift */; };
+		9E57B81E2A6C9893002E9B56 /* UsersPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B81D2A6C9893002E9B56 /* UsersPresenterTests.swift */; };
+		9E57B8212A6C9C08002E9B56 /* UserPostViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B8202A6C9C08002E9B56 /* UserPostViewUITests.swift */; };
 		9E6C44302A6B9232008D146F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C442F2A6B9232008D146F /* SceneDelegate.swift */; };
 		9E6C44322A6B9AC5008D146F /* UsersView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C44312A6B9AC4008D146F /* UsersView.storyboard */; };
-		9E6C44382A6BE755008D146F /* UsersPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C44342A6BE744008D146F /* UsersPresenterTests.swift */; };
-		9E6C44392A6BE755008D146F /* UserPostsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C44352A6BE749008D146F /* UserPostsInteractorTests.swift */; };
-		9E6C443A2A6BE755008D146F /* UsersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C44362A6BE750008D146F /* UsersInteractorTests.swift */; };
-		9E6C443B2A6BE755008D146F /* UserPostsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C44372A6BE755008D146F /* UserPostsPresenterTests.swift */; };
-		9E6C443E2A6BE7A3008D146F /* UserPostsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C443C2A6BE79C008D146F /* UserPostsViewUITests.swift */; };
-		9E6C443F2A6BE7A3008D146F /* UsersViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C443D2A6BE7A3008D146F /* UsersViewUITests.swift */; };
+		9E6C44412A6C33FF008D146F /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C44402A6C33FF008D146F /* UserViewCell.swift */; };
 		9E9DD7382A6B187800429D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DD7372A6B187800429D5E /* AppDelegate.swift */; };
 		9E9DD7412A6B187A00429D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DD7402A6B187A00429D5E /* Assets.xcassets */; };
 		9E9DD7442A6B187A00429D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DD7422A6B187A00429D5E /* LaunchScreen.storyboard */; };
@@ -65,14 +66,17 @@
 		558D79903F8761C58697A854 /* Pods_PostsManagerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostsManagerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E208C642A6B42B8005910E0 /* LocalDataRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataRepositoryProtocol.swift; sourceTree = "<group>"; };
 		9E208C662A6B60C8005910E0 /* UsersRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRemoteDataManager.swift; sourceTree = "<group>"; };
+		9E57B8122A6C8EE6002E9B56 /* UserPostsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsInteractorTests.swift; sourceTree = "<group>"; };
+		9E57B8142A6C924C002E9B56 /* PostsManagerAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostsManagerAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E57B8152A6C924D002E9B56 /* UserViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserViewUITests.swift; path = "../New Group/UserViewUITests.swift"; sourceTree = "<group>"; };
+		9E57B8172A6C92D2002E9B56 /* UserPostsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsPresenterTests.swift; sourceTree = "<group>"; };
+		9E57B81A2A6C93AF002E9B56 /* PostsManagerAppTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PostsManagerAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E57B81B2A6C976A002E9B56 /* UsersInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractorTests.swift; sourceTree = "<group>"; };
+		9E57B81D2A6C9893002E9B56 /* UsersPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenterTests.swift; sourceTree = "<group>"; };
+		9E57B8202A6C9C08002E9B56 /* UserPostViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewUITests.swift; sourceTree = "<group>"; };
 		9E6C442F2A6B9232008D146F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E6C44312A6B9AC4008D146F /* UsersView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersView.storyboard; sourceTree = "<group>"; };
-		9E6C44342A6BE744008D146F /* UsersPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersPresenterTests.swift; sourceTree = "<group>"; };
-		9E6C44352A6BE749008D146F /* UserPostsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostsInteractorTests.swift; sourceTree = "<group>"; };
-		9E6C44362A6BE750008D146F /* UsersInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersInteractorTests.swift; sourceTree = "<group>"; };
-		9E6C44372A6BE755008D146F /* UserPostsPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostsPresenterTests.swift; sourceTree = "<group>"; };
-		9E6C443C2A6BE79C008D146F /* UserPostsViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostsViewUITests.swift; sourceTree = "<group>"; };
-		9E6C443D2A6BE7A3008D146F /* UsersViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewUITests.swift; sourceTree = "<group>"; };
+		9E6C44402A6C33FF008D146F /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
 		9E9DD7342A6B187800429D5E /* PostsManagerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostsManagerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9DD7372A6B187800429D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E9DD7402A6B187A00429D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,7 +102,7 @@
 		9E9DD7902A6B210F00429D5E /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		9E9DD7972A6B21E900429D5E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9E9DD7992A6B21F800429D5E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		9E9DD79D2A6B262200429D5E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9E9DD79D2A6B262200429D5E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,13 +140,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9E57B8192A6C9381002E9B56 /* PostsManagerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E57B8122A6C8EE6002E9B56 /* UserPostsInteractorTests.swift */,
+				9E57B8172A6C92D2002E9B56 /* UserPostsPresenterTests.swift */,
+				9E57B81A2A6C93AF002E9B56 /* PostsManagerAppTests-Bridging-Header.h */,
+				9E57B81B2A6C976A002E9B56 /* UsersInteractorTests.swift */,
+				9E57B81D2A6C9893002E9B56 /* UsersPresenterTests.swift */,
+			);
+			path = PostsManagerAppTests;
+			sourceTree = "<group>";
+		};
+		9E57B81F2A6C9AD2002E9B56 /* PostsManagerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E57B8152A6C924D002E9B56 /* UserViewUITests.swift */,
+				9E57B8142A6C924C002E9B56 /* PostsManagerAppUITests-Bridging-Header.h */,
+				9E57B8202A6C9C08002E9B56 /* UserPostViewUITests.swift */,
+			);
+			path = PostsManagerAppUITests;
+			sourceTree = "<group>";
+		};
 		9E9DD72B2A6B187800429D5E = {
 			isa = PBXGroup;
 			children = (
+				9E57B81F2A6C9AD2002E9B56 /* PostsManagerAppUITests */,
 				9E9DD79D2A6B262200429D5E /* Podfile */,
+				9E57B8192A6C9381002E9B56 /* PostsManagerAppTests */,
 				9E9DD7362A6B187800429D5E /* PostsManagerApp */,
-				9E9DD74D2A6B187B00429D5E /* PostsManagerAppTests */,
-				9E9DD7572A6B187B00429D5E /* PostsManagerAppUITests */,
 				9E9DD7352A6B187800429D5E /* Products */,
 				6B016B5309EB04B4E0771153 /* Pods */,
 				B89BE8DE1159D56CAE785B19 /* Frameworks */,
@@ -168,26 +194,6 @@
 				9E9DD7452A6B187A00429D5E /* Info.plist */,
 			);
 			path = PostsManagerApp;
-			sourceTree = "<group>";
-		};
-		9E9DD74D2A6B187B00429D5E /* PostsManagerAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				9E6C44352A6BE749008D146F /* UserPostsInteractorTests.swift */,
-				9E6C44372A6BE755008D146F /* UserPostsPresenterTests.swift */,
-				9E6C44362A6BE750008D146F /* UsersInteractorTests.swift */,
-				9E6C44342A6BE744008D146F /* UsersPresenterTests.swift */,
-			);
-			path = PostsManagerAppTests;
-			sourceTree = "<group>";
-		};
-		9E9DD7572A6B187B00429D5E /* PostsManagerAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9E6C443C2A6BE79C008D146F /* UserPostsViewUITests.swift */,
-				9E6C443D2A6BE7A3008D146F /* UsersViewUITests.swift */,
-			);
-			path = PostsManagerAppUITests;
 			sourceTree = "<group>";
 		};
 		9E9DD7672A6B1A1300429D5E /* src */ = {
@@ -278,6 +284,7 @@
 				9E9DD7902A6B210F00429D5E /* UsersViewController.swift */,
 				9E208C662A6B60C8005910E0 /* UsersRemoteDataManager.swift */,
 				9E6C44312A6B9AC4008D146F /* UsersView.storyboard */,
+				9E6C44402A6C33FF008D146F /* UserViewCell.swift */,
 			);
 			path = users;
 			sourceTree = "<group>";
@@ -508,6 +515,7 @@
 				9E9DD78B2A6B207D00429D5E /* UsersProtocol.swift in Sources */,
 				9E9DD77F2A6B1F0A00429D5E /* UserPostsRouter.swift in Sources */,
 				9E9DD77D2A6B1ED200429D5E /* UserPostsRemoteDataManager.swift in Sources */,
+				9E6C44412A6C33FF008D146F /* UserViewCell.swift in Sources */,
 				9E208C672A6B60C8005910E0 /* UsersRemoteDataManager.swift in Sources */,
 				9E9DD7892A6B205900429D5E /* UsersPresenter.swift in Sources */,
 				9E9DD7982A6B21E900429D5E /* User.swift in Sources */,
@@ -531,10 +539,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6C443A2A6BE755008D146F /* UsersInteractorTests.swift in Sources */,
-				9E6C44382A6BE755008D146F /* UsersPresenterTests.swift in Sources */,
-				9E6C44392A6BE755008D146F /* UserPostsInteractorTests.swift in Sources */,
-				9E6C443B2A6BE755008D146F /* UserPostsPresenterTests.swift in Sources */,
+				9E57B81C2A6C976A002E9B56 /* UsersInteractorTests.swift in Sources */,
+				9E57B81E2A6C9893002E9B56 /* UsersPresenterTests.swift in Sources */,
+				9E57B8132A6C8EE6002E9B56 /* UserPostsInteractorTests.swift in Sources */,
+				9E57B8182A6C92D2002E9B56 /* UserPostsPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,8 +550,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6C443E2A6BE7A3008D146F /* UserPostsViewUITests.swift in Sources */,
-				9E6C443F2A6BE7A3008D146F /* UsersViewUITests.swift in Sources */,
+				9E57B8162A6C924D002E9B56 /* UserViewUITests.swift in Sources */,
+				9E57B8212A6C9C08002E9B56 /* UserPostViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,7 +768,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW998B6TT5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technical.test.PostsManagerAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -783,7 +791,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW998B6TT5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technical.test.PostsManagerAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -804,10 +812,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW998B6TT5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technical.test.PostsManagerAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PostsManagerApp/PostsManagerAppUITests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -824,10 +834,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW998B6TT5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = technical.test.PostsManagerAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PostsManagerApp/PostsManagerAppUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PostsManagerApp;

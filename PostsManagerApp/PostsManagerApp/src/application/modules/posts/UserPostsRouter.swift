@@ -9,7 +9,7 @@ import UIKit
 
 class UserPostsRouter: PresenterToRouterUserPostsProtocol {
     static func createUserPostsModule(with user: User) -> UIViewController {
-        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "PostViewController")
+        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "UserPostsViewController")
 
         if let view = viewController as? UserPostsViewController {
             let presenter: ViewToPresenterUserPostsProtocol & InteractorToPresenterUserPostsProtocol = UserPostsPresenter()

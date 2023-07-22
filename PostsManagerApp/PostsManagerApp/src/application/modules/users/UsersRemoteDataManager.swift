@@ -13,7 +13,7 @@ class UsersRemoteDataManager: InteractorToRemoteDataManagerUsersProtocol {
     func getRemoteUsers() {
         self.service = RemoteDataService()
 
-        var concatUrl = "users"
+        let concatUrl = "users"
         self.service?.getData(_type: User.self, concatUrl: concatUrl, complete: { (code, data) in
             self.remoteRequestHandler?.callBakRemoteUsersSuccess(with: data)
         })

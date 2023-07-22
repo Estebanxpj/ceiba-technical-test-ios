@@ -19,7 +19,7 @@ class UsersInteractor: PresenterToInteractorUsersProtocol {
 
 extension UsersInteractor: RemoteDataManagerToInteractorUsersProtocol {
     func callBakRemoteUsersSuccess(with users: [User]) {
-        if users.count == 0 {
+        if users.count > 0 {
             localDataManager?.saveLocalUsers(users: users)
         }
         presenter?.fetchUsers(users: users)

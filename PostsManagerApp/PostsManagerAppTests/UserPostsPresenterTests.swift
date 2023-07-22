@@ -1,7 +1,14 @@
+//
+//  UserPostsPresenterTests.swift
+//  PostsManagerAppTests
+//
+//  Created by Esteban Penagos Salazar on 21/07/23.
+//
+
 import XCTest
 @testable import PostsManagerApp
 
-class UserPostsPresenterTests: XCTestCase {
+final class UserPostsPresenterTests: XCTestCase {
 
     var sut: UserPostsPresenter!
     var viewMock: ViewUserPostsMock!
@@ -13,7 +20,6 @@ class UserPostsPresenterTests: XCTestCase {
         interactorMock = InteractorUserPostsMock()
         sut?.view = viewMock
         sut?.interactor = interactorMock
-        sut?.router = routerMock
     }
 
     override func tearDownWithError() throws {
@@ -23,20 +29,22 @@ class UserPostsPresenterTests: XCTestCase {
     }
 
     func tests_viewDidLoad() throws {
-        sut.selectedUser = nil
-        interactorMock.
-        sut?.viewDidLoad(sut.selectedUser)
+        sut.selectedUser = User(JSONString: "")
+        sut?.viewDidLoad()
         XCTAssertTrue(viewMock?.isAlertShow ?? false)
-        XCTAssertTrue(viewMock?.isSpinerShow ?? false)
+        XCTAssertTrue(viewMock?.isAlertShow ?? false)
     }
 }
 
 class ViewUserPostsMock: PresenterToViewUserPostsProtocol {
+    func showInfoUser(user: PostsManagerApp.User) {
+    }
+    
     var presenter: ViewToPresenterUserPostsProtocol?
     
     var isAlertShow: Bool = false
     var spiner: Bool = false
-    var listPosts: [Post]
+    var listPosts: [Post] = []
 
     func pushPosts(posts: [Post]) {
         listPosts = posts
@@ -56,10 +64,17 @@ class ViewUserPostsMock: PresenterToViewUserPostsProtocol {
 }
 
 class InteractorUserPostsMock: PresenterToInteractorUserPostsProtocol {
+    var localDataManager: PostsManagerApp.InteractorToLocalDataManagerUserPostsProtocol?
+    
+    var remoteDataManager: PostsManagerApp.InteractorToRemoteDataManagerUserPostsProtocol?
+    
+    func loadUserPosts(userId: Int) {
+    }
+    
     var presenter: InteractorToPresenterUserPostsProtocol?
     var listPostsResponse: [Post] = []
 
     func loadUserPosts() {
-        presenter.fetchPosts(posts: listPostsResponse)
+        presenter?.fetchPosts(posts: listPostsResponse)
     }
 }

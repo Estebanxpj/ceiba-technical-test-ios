@@ -1,7 +1,14 @@
+//
+//  UsersPresenterTests.swift
+//  PostsManagerAppTests
+//
+//  Created by Esteban Penagos Salazar on 21/07/23.
+//
+
 import XCTest
 @testable import PostsManagerApp
 
-class UsersPresenterTests: XCTestCase {
+final class UsersPresenterTests: XCTestCase {
 
     var sut: UsersPresenter!
     var viewMock: ViewUsersMock!
@@ -33,15 +40,15 @@ class UsersPresenterTests: XCTestCase {
     }
     
     func tests_filterUsersList() {
-        viewMock?.listUsersResponse = []
-        sut?.filterUsersList("")
+        interactorMock?.listUsersResponse = []
+        sut?.filterUsersList(filter: "")
         XCTAssertTrue(viewMock?.isAlertShow ?? true)
         XCTAssertTrue(viewMock?.isSpinerShow ?? false)
     }
 
     func tests_showUserPostsView() {
-        var user: User = nil
-        sut?.showUserPostsView(user)
+        guard var user = User(JSONString: "") else { return }
+        sut?.showUserPostsView(user: user)
         XCTAssertTrue(routerMock?.redirectNewView ?? true)
         XCTAssertTrue(viewMock?.isSpinerShow ?? false)
     }
@@ -50,7 +57,7 @@ class UsersPresenterTests: XCTestCase {
 class ViewUsersMock: PresenterToViewUsersProtocol {
     var presenter: ViewToPresenterUsersProtocol?
     var isSpinerShow: Bool = false
-    var originUserList: [User]
+    var originUserList: [User] = []
     var isAlertShow: Bool = false
 
     func pushUsers(users: [User]) {
@@ -71,15 +78,26 @@ class ViewUsersMock: PresenterToViewUsersProtocol {
 }
 
 class InteractorUsersMock: PresenterToInteractorUsersProtocol {
+    var localDataManager: PostsManagerApp.InteractorToLocalDataManagerUsersProtocol?
+    
+    var remoteDataManager: PostsManagerApp.InteractorToRemoteDataManagerUsersProtocol?
+    
     var presenter: InteractorToPresenterUsersProtocol?
     var listUsersResponse: [User] = []
 
     func loadUsers() {
-        presenter.fetchUsers(users: listUsersResponse)
+        presenter?.fetchUsers(users: listUsersResponse)
     }
 }
 
 class RouterUsersMock: PresenterToRouterUsersProtocol {
+    static func createUsersModule() -> UIViewController {
+        return UIViewController()
+    }
+    
+    func presentPostsModule(form view: PostsManagerApp.PresenterToViewUsersProtocol, withData: PostsManagerApp.User) {
+    }
+    
     var redirectNewView: Bool = false
     func presentPostsModule(form view: ViewToPresenterUsersProtocol, withData: User) {
         self.redirectNewView = true

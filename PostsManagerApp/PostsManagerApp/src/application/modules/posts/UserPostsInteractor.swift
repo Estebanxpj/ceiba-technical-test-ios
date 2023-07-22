@@ -19,7 +19,7 @@ class UserPostsInteractor: PresenterToInteractorUserPostsProtocol {
 
 extension UserPostsInteractor: RemoteDataManagerToInteractorUserPostsProtocol {
     func callBakRemotePostsSuccess(posts: [Post]) {
-        if posts.count == 0 {
+        if posts.count > 0 {
             localDataManager?.saveLocalUserPosts(posts: posts)
         }
         presenter?.fetchPosts(posts: posts)

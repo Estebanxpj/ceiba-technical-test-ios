@@ -1,8 +1,14 @@
+//
+//  UserPostsInteractorTests.swift
+//  PostsManagerAppTests
+//
+//  Created by Esteban Penagos Salazar on 21/07/23.
+//
+
 import XCTest
 @testable import PostsManagerApp
-
-class UserPostsInteractorTests: XCTestCase {
-
+final class UserPostsInteractorTests: XCTestCase {
+    
     var sut: UserPostsInteractor!
     var presenterMock: PresenterUserPostsMock!
     var localDataManagerMock: LocalDataManagerUserPostsMock?
@@ -14,9 +20,9 @@ class UserPostsInteractorTests: XCTestCase {
         localDataManagerMock = LocalDataManagerUserPostsMock()
         remoteDataManagerMock = RemoteDataManagerUserPostsMock()
 
-        sut?.presenter = presenterMock
+        sut?.presenter = presenterMock as? any InteractorToPresenterUserPostsProtocol
         sut?.localDataManager = localDataManagerMock
-        sut?.remoteDataManager = remoteDataManagerMock
+        sut?.remoteDataManager = remoteDataManagerMock as? any InteractorToRemoteDataManagerUserPostsProtocol
     }
 
     override func tearDownWithError() throws {
@@ -27,18 +33,29 @@ class UserPostsInteractorTests: XCTestCase {
     }
 
     func tests_loadUserPosts() throws {
-        var userId: Int = 1 
+        var userId: Int = 1
         sut?.loadUserPosts(userId: userId)
         XCTAssertTrue(presenterMock?.returnedPosts ?? false)
     }
 }
 
 class PresenterUserPostsMock: ViewToPresenterUserPostsProtocol {
+    var view: PostsManagerApp.PresenterToViewUserPostsProtocol?
+    
+    var interactor: PostsManagerApp.PresenterToInteractorUserPostsProtocol?
+    
+    var router: PostsManagerApp.PresenterToRouterUserPostsProtocol?
+    
+    var selectedUser: PostsManagerApp.User?
+    
+    func viewDidLoad() {
+    }
+    
     var presenter: InteractorToPresenterUserPostsProtocol?
     var returnedPosts: Bool = false
 
     func fetchPosts(posts: [Post]) {
-        if let listPosts = posts, posts.count > 0 {
+        if posts.count > 0 {
             self.returnedPosts = true
         } else {
             self.returnedPosts = false
@@ -47,19 +64,26 @@ class PresenterUserPostsMock: ViewToPresenterUserPostsProtocol {
 }
 
 class LocalDataManagerUserPostsMock: InteractorToLocalDataManagerUserPostsProtocol {
+    func saveLocalUserPosts(posts: [PostsManagerApp.Post]) {
+    }
+    
     var localRequestHandler: LocalDataManagerToInteractorUserPostsProtocol?
     var listPostsResponse: [Post] = []
 
-    func getLocalUserPosts(userId: Int) {       
-        localRequestHandler.callBakLocalPosts(listPostsResponse)
+    func getLocalUserPosts(userId: Int) {
+        localRequestHandler?.callBakLocalPosts(posts: listPostsResponse, userId: userId)
     }
 }
 
 class RemoteDataManagerUserPostsMock: InteractorToPresenterUsersProtocol {
+    func fetchUsers(users: [PostsManagerApp.User]) {
+    }
+    
     var remoteRequestHandler: RemoteDataManagerToInteractorUserPostsProtocol?
     var listPostsResponse: [Post] = []
 
-    func getLocalUserPosts(userId: Int) {       
-        remoteRequestHandler.callBakRemotePostsSuccess(posts: listPostsResponse)
+    func getLocalUserPosts(userId: Int) {
+        remoteRequestHandler?.callBakRemotePostsSuccess(posts: listPostsResponse)
     }
 }
+
