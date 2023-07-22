@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "895F8FE4-CCF9-4A24-9658-214D602C57A6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
@@ -18,6 +18,1212 @@
             endingLineNumber = "19"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2B30675-4391-4409-B67D-218F900D4069"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "loadUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97215CEE-05B0-4F74-A7EB-172208726817"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "loadUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "186269B5-A076-4917-AA97-131753F162C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getLocalUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "186269B5-A076-4917-AA97-131753F162C1 - d24dc86b414daa0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersLocalDataManager.getLocalUsers() -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "186269B5-A076-4917-AA97-131753F162C1 - d24dc86b414daa0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersLocalDataManager.getLocalUsers() -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B606617-0027-4A8D-9647-B8DB0D067454"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getLocalUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB3A461D-13A0-4F85-BF22-CDCC65823BAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getLocalUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05282723-69A6-40E1-896D-8C3D7A76EBF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "UsersLocalDataManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5EDBDCA-5617-4449-97B4-972E52DB6618"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "callBakLocalUsers(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03C70805-DB07-466C-8368-3E3A75D41805"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "callBakLocalUsers(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADB56696-EAAF-4F42-94E9-873B6D58BC45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "callBakLocalUsers(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E525959-7C36-436A-B6D0-D6DC3A234D55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersLocalDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getLocalUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72B79D44-B37D-4A6A-85E6-C72BC67AC006"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "callBakRemoteUsersSuccess(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72B79D44-B37D-4A6A-85E6-C72BC67AC006 - 1da4479d3e534b9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "72B79D44-B37D-4A6A-85E6-C72BC67AC006 - 1da4479d3e534bb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "65">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F83901C5-6B0B-4289-8198-A541EC05A06E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "callBakRemoteUsersSuccess(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F83901C5-6B0B-4289-8198-A541EC05A06E - 1da4479d3e534bb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "F83901C5-6B0B-4289-8198-A541EC05A06E - 1da4479d3e534b9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9EA92F3-FE56-4A1A-B0BC-4817DBFB2D71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C79750D9-3BBA-4E95-BBCD-487B58ACFCA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getData(_type:concatUrl:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D769DFC-463A-4167-9A4E-4A57AFF4DA8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getData(_type:concatUrl:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DC9C8AA-42D2-49C0-9F0F-EA9DAB8065DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getData(_type:concatUrl:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02438AFE-FA05-4AFD-B5B4-FD235A3EF897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getData(_type:concatUrl:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA2857EF-7DB9-4A53-B88B-95497750CAAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchUsers(users:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA2857EF-7DB9-4A53-B88B-95497750CAAD - c5f41999466b5d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersPresenter.fetchUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "FA2857EF-7DB9-4A53-B88B-95497750CAAD - c5f41999466b5f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersPresenter.fetchUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "387">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4703FBC9-A604-4E66-81DF-6BB382FFF9A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchUsers(users:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4703FBC9-A604-4E66-81DF-6BB382FFF9A0 - c5f41999466b54b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersPresenter.fetchUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "363">
+               </Location>
+               <Location
+                  uuid = "4703FBC9-A604-4E66-81DF-6BB382FFF9A0 - c5f41999466b56a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersPresenter.fetchUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "577">
+               </Location>
+               <Location
+                  uuid = "4703FBC9-A604-4E66-81DF-6BB382FFF9A0 - c5f41999466b509"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersPresenter.fetchUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "809">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C64FCFA-FCF1-448B-9444-1F792363ECAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersRemoteDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "getRemoteUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DA56F58-8A3D-442C-A2F3-067E20D54B4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersRemoteDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "UsersRemoteDataManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9448C0DA-A386-43D9-9E22-B45822CF2307"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "callBakRemoteUsersSuccess(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9448C0DA-A386-43D9-9E22-B45822CF2307 - 1da4479d3e534b71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "266">
+               </Location>
+               <Location
+                  uuid = "9448C0DA-A386-43D9-9E22-B45822CF2307 - 1da4479d3e534b71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersInteractor.callBakRemoteUsersSuccess(with: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16F015F3-F2A3-4646-8664-604DFC30B4B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/adapters/providers/RemoteDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getData(_type:concatUrl:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C80C2322-7E8C-437C-8116-F16F109D0C06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "pushUsers(users:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C80C2322-7E8C-437C-8116-F16F109D0C06 - ef3a78db7a7a7411"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "C80C2322-7E8C-437C-8116-F16F109D0C06 - 720fbc3f3528a0d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "C80C2322-7E8C-437C-8116-F16F109D0C06 - ef3a78db7a7a7411"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "C80C2322-7E8C-437C-8116-F16F109D0C06 - ef3a78db7a7a7453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "226D78B7-5567-4931-A9CF-2762577B6AB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "pushUsers(users:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "226D78B7-5567-4931-A9CF-2762577B6AB5 - 720fbc3f3528a0f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "189">
+               </Location>
+               <Location
+                  uuid = "226D78B7-5567-4931-A9CF-2762577B6AB5 - 720fbc3f3528a0f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "226D78B7-5567-4931-A9CF-2762577B6AB5 - 720fbc3f3528a33a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in PostsManagerApp.UsersViewController.pushUsers(users: Swift.Array&lt;PostsManagerApp.User&gt;) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6231EF57-67EC-4183-A085-7F2B0DEF15A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6231EF57-67EC-4183-A085-7F2B0DEF15A3 - f376e04c9e5f7aae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  uuid = "6231EF57-67EC-4183-A085-7F2B0DEF15A3 - f376e04c9e5f7aec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "6231EF57-67EC-4183-A085-7F2B0DEF15A3 - f376e04c9e5f7aec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "427">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C223871F-07AD-477D-86B7-A80E5E04704E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7a4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7a2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7a68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7a68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7aae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "C223871F-07AD-477D-86B7-A80E5E04704E - f376e04c9e5f7aae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14DD597C-A639-48FA-90B1-44059044D707"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "startSpiner()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F03A0B5A-FB04-4D8B-8C61-A8D14089A508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "stopSpiner()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B7F71D-9539-4667-A2C8-51679743CAE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05B7F71D-9539-4667-A2C8-51679743CAE6 - d2ef3141b9a8146"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "05B7F71D-9539-4667-A2C8-51679743CAE6 - d2ef3141b9a8104"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4266CFD8-E530-4894-AA25-525518D664A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A68E99D5-D5D1-403C-9565-0F111382651B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A68E99D5-D5D1-403C-9565-0F111382651B - c90c1ff54937941"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "A68E99D5-D5D1-403C-9565-0F111382651B - c90c1ff54937960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BE529CE-EAC7-42C7-A288-B6E51B2056A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BE529CE-EAC7-42C7-A288-B6E51B2056A5 - f376e04c9e5f7b52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1242">
+               </Location>
+               <Location
+                  uuid = "4BE529CE-EAC7-42C7-A288-B6E51B2056A5 - f376e04c9e5f7b52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1273">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03A7DB7C-6912-40F1-9435-7F092F11B570"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03A7DB7C-6912-40F1-9435-7F092F11B570 - f376e04c9e5f7b73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+               <Location
+                  uuid = "03A7DB7C-6912-40F1-9435-7F092F11B570 - f376e04c9e5f7b52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+               <Location
+                  uuid = "03A7DB7C-6912-40F1-9435-7F092F11B570 - f376e04c9e5f7b73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1669">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "799EBC48-D9E7-4E29-BF04-4EC29ED940C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "showUserPostsView(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B18D4A71-5B6B-4832-B532-1B6969F8A433"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsManagerApp/src/application/modules/users/UsersRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "presentPostsModule(form:withData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B18D4A71-5B6B-4832-B532-1B6969F8A433 - 889974b052dcb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersRouter.presentPostsModule(form: PostsManagerApp.PresenterToViewUsersProtocol, withData: PostsManagerApp.User) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "B18D4A71-5B6B-4832-B532-1B6969F8A433 - 889974b052dcb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PostsManagerApp.UsersRouter.presentPostsModule(form: PostsManagerApp.PresenterToViewUsersProtocol, withData: PostsManagerApp.User) -&gt; ()"
+                  moduleName = "PostsManagerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebasbetancur/Desktop/PostsManagerApp/PostsManagerApp/src/application/modules/users/UsersRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "254">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

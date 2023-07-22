@@ -2,7 +2,7 @@
 //  UserPostsRemoteDataManager.swift
 //  PostsManagerApp
 //
-//  Created by Sebastian Betancur Salazar on 21/07/23.
+//  Created by Esteban Penagos Salazar on 21/07/23.
 //
 
 import Foundation

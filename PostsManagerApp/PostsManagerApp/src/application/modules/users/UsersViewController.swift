@@ -2,32 +2,37 @@
 //  UsersViewController.swift
 //  PostsManagerApp
 //
-//  Created by Sebastian Betancur Salazar on 21/07/23.
+//  Created by Esteban Penagos Salazar on 21/07/23.
 
 import Foundation
 import UIKit
 
 class UsersViewController: UIViewController {
     
+    
+    @IBOutlet weak var filter: UISearchBar!
     @IBOutlet weak var usersTable: UITableView!
     
     @IBOutlet weak var spiner: UIActivityIndicatorView!
-    @IBOutlet weak var filterBar: UISearchBar!
     
     var presenter: ViewToPresenterUsersProtocol?
     var originUserList: [User] = []
-    var listUsers: [User] = []
+    var listUsers = [User]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        self.usersTable.delegate = self
+        self.usersTable.dataSource = self
+        self.usersTable.register(UserCell.self, forCellReuseIdentifier: "UserCell")
 
-        presenter?.viewDidLoad()
+        self.presenter?.viewDidLoad()
     }
 }
 
 extension UsersViewController: PresenterToViewUsersProtocol {
     func pushUsers(users: [User]) {
-        listUsers = users
+        self.listUsers = users
         DispatchQueue.main.async {
             self.usersTable.reloadData()
         }
@@ -57,16 +62,16 @@ extension UsersViewController: PresenterToViewUsersProtocol {
 
 
 extension UsersViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listUsers.count
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int 	{
+        return self.listUsers.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "userCell") as! UserCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell") as! UserCell
         
-        cell.txtName?.text = listUsers[indexPath.row].name
-        cell.txtEmail.text = listUsers[indexPath.row].email
-        cell.txtPhone?.text = listUsers[indexPath.row].phone
+        cell.txtName?.text = self.listUsers[indexPath.row].name
+        cell.txtEmail?.text = self.listUsers[indexPath.row].email
+        cell.txtPhone?.text = self.listUsers[indexPath.row].phone
         return cell
     }
 }
@@ -84,10 +89,10 @@ extension UsersViewController: UISearchBarDelegate {
 
 }
 
-class UserCell: UITableViewCell{
+class UserCell: UITableViewCell {
     
-    @IBOutlet weak var txtName: UILabel!
+    @IBOutlet weak var btnPosts: UILabel!
     @IBOutlet weak var txtEmail: UILabel!
     @IBOutlet weak var txtPhone: UILabel!
-    
+    @IBOutlet weak var txtName: UILabel!
 }

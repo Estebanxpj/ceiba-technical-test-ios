@@ -32,7 +32,7 @@ class UsersPresenter: ViewToPresenterUsersProtocol {
     }
 
     func showUserPostsView(user: User) {
-        router?.presentPostsModule(form: view! as! ViewToPresenterUsersProtocol, withData: user)
+        router?.presentPostsModule(form: view! as! PresenterToViewUsersProtocol, withData: user)
     }
 
 }

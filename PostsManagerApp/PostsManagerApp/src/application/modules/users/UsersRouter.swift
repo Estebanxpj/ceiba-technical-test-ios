@@ -2,7 +2,7 @@
 //  UsersRouter.swift
 //  PostsManagerApp
 //
-//  Created by Sebastian Betancur Salazar on 21/07/23.
+//  Created by Esteban Penagos Salazar on 21/07/23.
 //
 
 import UIKit
@@ -27,6 +27,8 @@ class UsersRouter: PresenterToRouterUsersProtocol {
             interactor.presenter = presenter
             interactor.remoteDataManager = remoteDataManager
             interactor.localDataManager = localDataManager
+            localDataManager.localRequestHandler = interactor
+            remoteDataManager.remoteRequestHandler = interactor
             
             return navController
         }
@@ -38,7 +40,7 @@ class UsersRouter: PresenterToRouterUsersProtocol {
         return UIStoryboard(name: "UsersView", bundle: Bundle.main)
     }
 
-    func presentPostsModule(form view: ViewToPresenterUsersProtocol, withData: User) {
+    func presentPostsModule(form view: PresenterToViewUsersProtocol, withData: User) {
         let newUserPostsView = UserPostsRouter.createUserPostsModule(with: withData)
 
         if let pushView = view as? UIViewController {

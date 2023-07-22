@@ -2,7 +2,7 @@
 //  UsersProtocol.swift
 //  PostsManagerApp
 //
-//  Created by Sebastian Betancur Salazar on 21/07/23.
+//  Created by Esteban Penagos Salazar on 21/07/23.
 //
 
 import Foundation
@@ -30,7 +30,7 @@ protocol PresenterToViewUsersProtocol:class {
 
 protocol PresenterToRouterUsersProtocol:class {
     static func createUsersModule() -> UIViewController
-    func presentPostsModule(form view: ViewToPresenterUsersProtocol, withData: User)
+    func presentPostsModule(form view: PresenterToViewUsersProtocol, withData: User)
 }
 
 protocol InteractorToPresenterUsersProtocol:class {
